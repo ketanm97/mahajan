@@ -1,44 +1,6 @@
+<!DOCTYPE HTML>
 <html>
-<title>Welcome To Average of Stock</title>
-<head><h1>Please Fill the Details:</h1></head>
-<body style="background-color:grey" align="center">
-<div>
-  <label style="padding-right:10px">Quantity Holded</label>
-  <input id="x1" type="number">
-<br><br>
-  <label>Hold Price</label>
-  <input id="x2" type="number">
-  <br><br>
-  <label>LTP/Current price</label>
-  <input id="x3" type="number">
-<br><br>
-  <label>Average</label>
-  <input id="x4" type="number" >
-</div>
-<br><br><br>
-<div >
-<button onclick="sanket()">SUBMIT</button>
-</div>
-<br><br>
-<div>
-   <span><h3 id="result" style="color:black"></h3>
-<h3 id="result1" style="color:black"></h3></span>
-</div>
-<script>
-function sanket(){
-  var x1=document.getElementById("x1").value;
-  var x2=document.getElementById("x2").value;
-  var x3=document.getElementById("x3").value;
-  var x4=document.getElementById("x4").value;
-  var res=0;
-  res=((x1*(x2-x4))/(x4-x3))
-  var res1="Requied quantity to be purchased is "+Math.round(res)
-  var res4=Math.round(res)*x3;
-  var res2="Amount need to get them "+res4.toString();
-  document.getElementById("result").innerHTML = res1;
-  document.getElementById("result1").innerHTML = res2;
-  return ;
-}
-</script>
-</body>
+  <body>
+  <p>hello</p>
+  </body>
 </html>
